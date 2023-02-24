@@ -1,0 +1,128 @@
+table {
+    border: solid black;
+}
+td {
+    border: solid black 1px;
+    text-align: center;
+    width: calc(40vh/20);
+    padding: 8px 5px;
+}
+
+.container {
+    height: 97vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* TABLE DESIGNS */
+:root{
+    --green: #4F7849;
+    --greenEven: #CEE0CC;
+    --blue: #0077b6;
+    --blueEven: #90e0ef;
+    --orange: #78290f;
+    --orangeEven: #ff9f1c;
+    --red: #9d0208;
+    --redEven: #ffc2d1;
+    --purple: #390099;
+    --purpleEven: #ffc6ff;
+}
+
+/* DEFAULT */
+table.default {
+    font-family: "Arial", cursive, sans-serif;
+    border: 1px solid black;
+    background-color: #EEEEEE;
+    border-collapse: collapse;
+}
+table.default td  {
+    border: 3px solid black;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+/* GREEN */
+table.green {
+    font-family: "Arial", cursive, sans-serif;
+    border: 1px solid var(--green);
+    background-color: #EEEEEE;
+    border-collapse: collapse;
+}
+table.green td  {
+    border: 3px solid var(--green);
+    font-size: 19px;
+    font-weight: bold;
+    color: var(--green);
+}
+table.green tr:nth-child(even) {
+    background: var(--greenEven);
+}
+
+/* BLUE */
+table.blue {
+    font-family: "Arial", cursive, sans-serif;
+    border: 1px solid var(--blue);
+    background-color: #EEEEEE;
+    border-collapse: collapse;
+}
+table.blue td {
+    border: 3px solid var(--blue);
+    font-size: 19px;
+    font-weight: bold;
+    color: var(--blue);
+}
+table.blue tr:nth-child(even) {
+    background: var(--blueEven);
+}
+
+/* ORANGE */
+table.orange {
+    font-family: "Arial", cursive, sans-serif;
+    border: 1px solid var(--orange);
+    background-color: #EEEEEE;
+    border-collapse: collapse;
+}
+table.orange td {
+    border: 3px solid var(--orange);
+    font-size: 19px;
+    font-weight: bold;
+    color: var(--orange);
+}
+table.orange tr:nth-child(even) {
+    background: var(--orangeEven);
+}
+
+/* RED */
+table.red {
+    font-family: "Arial", cursive, sans-serif;
+    border: 1px solid var(--red);
+    background-color: #EEEEEE;
+    border-collapse: collapse;
+}
+table.red td {
+    border: 3px solid var(--red);
+    font-size: 19px;
+    font-weight: bold;
+    color: var(--red);
+}
+table.red tr:nth-child(even) {
+    background: var(--redEven);
+}
+
+/* PURPLE */
+table.purple {
+    font-family: "Arial", cursive, sans-serif;
+    border: 1px solid var(--purple);
+    background-color: #EEEEEE;
+    border-collapse: collapse;
+}
+table.purple td {
+    border: 3px solid var(--purple);
+    font-size: 19px;
+    font-weight: bold;
+    color: var(--purple);
+}
+table.purple tr:nth-child(even) {
+    background: var(--purpleEven);
+}
+
